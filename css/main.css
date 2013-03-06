@@ -70,6 +70,46 @@ body .site-content p, body .site-content-top p {
     width:100%;
 }
 
+.sponsor {
+    display:block;
+    float:left;
+    width:240px;
+    height:180px;
+    
+    margin-left:0px;
+    margin-top:0px;
+    margin-bottom:20px;
+    margin-right:20px;
+    
+    border:1px solid #eee;
+    background: url("#") white top left no-repeat;
+    
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sponsor:hover {
+    border-color: #ccc;
+}
+
+#reaktor {
+    background-image: url("../img/sponsor-logos/reaktor.png");
+}
+
+#codento {
+    background-image: url("../img/sponsor-logos/codento.png");
+}
+
+#futurice {
+    background-image: url("../img/sponsor-logos/futurice.png");
+}
+
+#zenrobotics {
+    background-image: url("../img/sponsor-logos/zenrobotics.png");
+}
+
 /*
  * HTML5 Boilerplate
  *
