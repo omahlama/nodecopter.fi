@@ -51,7 +51,7 @@ body p {
     padding: 1em 0 2em;
 }
 
-body .site-content p {
+body .site-content p, body .site-content-top p {
     color: #333;
 }
 
