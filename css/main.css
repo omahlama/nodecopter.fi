@@ -40,11 +40,15 @@ body p {
     color: #999;
 }
 
-.site-content {
+.site-content, .site-content-top {
     overflow: hidden;
     padding: 1em 0 5em;
     color: #333;
     background: #fff;
+}
+
+.site-content-top {
+    padding: 1em 0 2em;
 }
 
 body .site-content p {
@@ -55,6 +59,15 @@ body .site-content p {
     max-width: 720px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.map-content {
+    background: #fff;
+}
+
+#map {
+    height:400px;
+    width:100%;
 }
 
 /*
