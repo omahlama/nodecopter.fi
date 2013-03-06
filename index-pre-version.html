@@ -25,19 +25,25 @@
         <![endif]-->
 
         <div class="container">
-
-            <h1>Mininodecopter Helsinki</h1>
             
-            <p>[FIXME: could start with a photo of the venue with a copter, maybe have it as a bg image for the dark block or something]</p>
+            <h1>
+                <div>Nodecopter Helsinki</div>
+                <div>Mininodecopter &mdash; Sat April 20th</div>
+            </h1>
+            
+        </div>
+
+        <div class="site-content-top">
+            <div class="container">
+                
+                <h2>Overview</h2>
+                
+                <p>[FIXME: could start with a photo of the venue with a copter, maybe have it as a bg image for the dark block or something]</p>
 
             <p>[FIXME: maybe add a nodecopter official logo]</p>
 
             <p>The first Nodecopter event in Finland is here! We are programming flying robots in Helsinki (or Espoo) on April 20th for the whole day. We'll start at around 9am on Saturday and hack until around 6pm. Then we'll have a demo.</p>
 
-        </div>
-
-        <div class="site-content-top">
-            <div class="container">
                 <p>[FIXME: team size, each team gets one copter to program, see examples, details: http://nodecopter.com/2012/brighton/nov-10]</p>
                 
                 <p>[FIXME: prizes?]</p>
@@ -73,7 +79,7 @@
                     <a href="http://www.zenrobotics.com" class="sponsor" id="zenrobotics">Zen Robotics</a>
                 </div>
                 
-                <p>Special thanks to <a href="http://startupsauna.com">Startup Sauna</a>, for letting us use their premises for hosting this event! [FIXME: add logo or not?]</p>
+                <p>Special thanks to <a href="http://startupsauna.com">Startup Sauna</a>, for letting us use their premises for hosting this event!</p>
                 
                 <h2>Organizers</h2>
 
@@ -87,8 +93,10 @@
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        
+        <script src="js/vendor/bigtext.js"></script>
+    
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
@@ -98,6 +106,21 @@
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+        
+        <script>
+        $(function() {
+            WebFont.load({
+                google: {
+                    families: ['Open Sans'] // font-family name
+                },
+                active: function() {
+                    $('h1').bigtext();
+                }
+            });
+        });
         </script>
     </body>
 </html>
