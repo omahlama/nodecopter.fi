@@ -24,9 +24,11 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+        <img id="header-image" src="img/drone-header.jpg" />
+
         <div class="container">
 
-            <h1>
+            <h1 style="opacity:0.0">
                 <div>Nodecopter Helsinki</div>
                 <div>Mininodecopter &mdash; Sat April 20th</div>
             </h1>
@@ -83,15 +85,21 @@
 
                 <p>Special thanks to <a href="http://startupsauna.com">Startup Sauna</a>, for letting us use their premises for hosting this event!</p>
 
+                <h2>It's easy</h2>
+                
+                <p>Programming copters is easy. Install node-ar-drone with <code>'npm install ar-drone'</code>, connect to the wi-fi network of your drone and run this example:</p>
+                
+                <script src="https://gist.github.com/jaukia/5153542.js"></script>
+
+                <p>That's it!</p>
+
                 <h2>Organizers</h2>
 
                 <p>[FIXME: People behind the event, photos, contact info]</p>
 
                 <h2>Links</h2>
 
-                <p>[FIXME: add a link to demo code like here: http://nodecopter.com/2012/san-francisco/oct-31]</p>
-
-                <p>Link here to the core Nodecopter site etc</p>
+                <p><a href="http://nodecopter.com">Nodecopter main site</a> &mdash; information on the Nodecopter events in other cities and on Nodecopter in general.</p>
             </div>
         </div>
 
@@ -112,15 +120,14 @@
         <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
 
         <script>
-        $(function() {
-            WebFont.load({
-                google: {
-                    families: ['Open Sans'] // font-family name
-                },
-                active: function() {
-                    $('h1').bigtext();
-                }
-            });
+        $('h1').bigtext();
+        WebFont.load({
+            google: {
+                families: ['Open Sans:300,700'] // font-family name
+            },
+            active: function() {
+                $('h1').css("opacity",1.0);
+            }
         });
         </script>
     </body>
