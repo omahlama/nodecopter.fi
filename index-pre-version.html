@@ -70,9 +70,67 @@
             <div class="container">
                 <h2>Tickets</h2>
 
-                <p>For programmers, we have only five extra places in teams available. So, if you really want to come and program, please email Janne A [FIXME:add link] and let us know, why you should be selected. You will get to join a team of one of the sponsoring companies.</p>
+                <p>For programmers, we have five extra places in teams available. So, if you really want to come and program, please email <a href="#contact-info">Janne Aukia</a> and let us know, why you should be selected. You will get to join a team of one of the sponsoring companies.</p>
                 
-                <p>For visitors, 50 free tickets are available at Lanyrd. This is to keep track on how many people are coming and to make the event coordination easier. Please book a ticket if you would like to join and see the drones fly! [FIXME: add lanyrd link, find out how lanyrd works]</p>
+                <p>For visitors, 60 free tickets are available at Lanyrd. This is to keep track on how many people are coming and to make the event coordination easier. Please book a ticket if you would like to join and see the drones fly! [FIXME: add lanyrd link, find out how lanyrd works]</p>
+
+                <h2>It's easy</h2>
+                
+                <p>Programming copters is easy. Install node-ar-drone with <code>'npm install ar-drone'</code>, connect to the wi-fi network of your drone and run this example:</p>
+                
+                <script src="https://gist.github.com/jaukia/5153542.js"></script>
+
+                <p>That's it!</p>
+
+                <h2>Organizers</h2>
+
+                <div class="mugshot">
+                    <img src="img/mugshots/janneaukia.jpg">
+                    <p class="name">Janne Aukia</p>
+                    <p class="twitter"><a href="https://twitter.com/jaukia">@jaukia</a></p>
+                </div>
+                
+                <div class="mugshot">
+                    <img src="img/mugshots/ollimahlamaki.jpg">
+                    <p class="name">Olli Mahlamäki</p>
+                    <p class="twitter"><a href="https://twitter.com/omahlama">@omahlama</a></p>
+                </div>
+                
+                <div class="mugshot">
+                    <img src="img/mugshots/mikaelkopteff.jpg">
+                    <p class="name">Mikael Kopteff</p>
+                    <p class="twitter"><a href="https://twitter.com/mikukopteri">@mikukopteri</a></p>
+                </div>
+                
+                <div class="mugshot">
+                    <img src="img/mugshots/anttirasinen.jpg">
+                    <p class="name">Antti Rasinen</p>
+                    <p class="twitter"><a href="https://twitter.com/arsatiki">@arsatiki</a></p>
+                </div>
+                
+                <div class="mugshot">
+                    <img src="img/mugshots/olegpodsechin.jpg">
+                    <p class="name">Oleg Podsechin</p>
+                    <p class="twitter"><a href="https://twitter.com/olegpodsechin">@olegpodsechin</a></p>
+                </div>
+                
+                <div class="mugshot">
+                    <img src="img/mugshots/samulihakoniemi.jpg">
+                    <p class="name">Samuli Hakoniemi</p>
+                    <p class="twitter"><a href="https://twitter.com/zvona">@zvona</a></p>
+                </div>
+                
+                <div class="clearfix"></div>
+                
+                <h3>Contact information</h3>
+                
+                <p>
+                    <a name="contact-info"></a>
+                    In matters related to the event, please contact Janne Aukia:<br>
+                    janne<span class="hide">(</span>@<span class="hide">)</span>aukia.com<br />
+                    +358 400 879 391<br />
+                </p>
+
 
                 <h2>Sponsors</h2>
 
@@ -86,19 +144,7 @@
                 </div>
 
                 <p>Special thanks to <a href="http://startupsauna.com">Startup Sauna</a>, for letting us use their premises for hosting this event!</p>
-
-                <h2>It's easy</h2>
                 
-                <p>Programming copters is easy. Install node-ar-drone with <code>'npm install ar-drone'</code>, connect to the wi-fi network of your drone and run this example:</p>
-                
-                <script src="https://gist.github.com/jaukia/5153542.js"></script>
-
-                <p>That's it!</p>
-
-                <h2>Organizers</h2>
-
-                <p>[FIXME: People behind the event, photos, contact info]</p>
-
                 <h2>Links</h2>
 
                 <p><a href="http://nodecopter.com">Nodecopter main site</a> &mdash; information on the Nodecopter events in other cities and on Nodecopter in general.</p>
@@ -125,7 +171,7 @@
         $('h1').bigtext();
         WebFont.load({
             google: {
-                families: ['Open Sans:300,700'] // font-family name
+                families: ['Open Sans:300,600'] // font-family name
             },
             active: function() {
                 $('h1').fadeTo(0,1.0);
