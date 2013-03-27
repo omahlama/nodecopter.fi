@@ -78,7 +78,7 @@ body p {
 
 .site-content, .site-content-top {
     overflow: hidden;
-    padding: 1em 0 5em;
+    padding: 1em 0 0;
     color: #333;
     background: #fff;
 }
@@ -147,6 +147,15 @@ body .site-content p, body .site-content-top p {
 
 #zenrobotics {
     background-image: url("../img/sponsor-logos/zenrobotics.png");
+}
+
+footer {
+    font-size: 80%;
+    text-align:center;
+    padding-top:2em;
+    margin-top:5em;
+    border-top:1px solid #eee;
+    padding-bottom:2em;
 }
 
 /*
