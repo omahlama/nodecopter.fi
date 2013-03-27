@@ -14,9 +14,13 @@
     margin-right:40px;
 }
 
+.mugshotContainer {
+    margin-right:-40px;
+}
+
 .mugshot img {
-    width:187px;
-    height:187px;
+    width:147px;
+    height:147px;
     border:1px solid #eee;
 }
 
