@@ -162,6 +162,25 @@ footer {
     padding-bottom:2em;
 }
 
+table, tr, td {
+    border:0px;
+}
+
+table {
+    max-width:500px;
+    display:block;
+}
+
+td {
+    padding:6px;
+    padding-left:0px;
+    vertical-align:top;
+}
+
+td.time {
+    width:115px;
+}
+
 /*
  * HTML5 Boilerplate
  *
