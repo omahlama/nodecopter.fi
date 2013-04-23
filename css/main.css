@@ -56,6 +56,10 @@ h3 {
     text-transform:uppercase;
 }
 
+li {
+    padding:4px;
+}
+
 h2 {
     font-size: 36px;
     font-weight:300;
